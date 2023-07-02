@@ -1,0 +1,50 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.col1, .col2{
+	width:50%;
+}
+
+
+
+.container{
+	margin:50px 25px;
+	font-size:20px;
+}
+
+.row{
+	display:flex;
+	flex-wrap:no wrap;
+}
+
+.about{
+	text-align:center;
+}
+.about h1{
+	color:dodgerblue;
+}
+.about p{
+	margin:25px 0;
+	font-style:italic;
+}
+
+ul{
+	list-style:inside url(images/image.svg);
+	line-height:35px;
+}
+
+a.page-link{
+	border:2px solid dodgerblue;
+	text-decoration:none;
+	cursor:pointer;
+	padding:10px 25px;
+	color:dodgerblue;
+	border-radius:10px;
+}
+
+.col2 p{
+	margin-bottom:35px;
+}
